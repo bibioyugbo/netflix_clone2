@@ -1,15 +1,18 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import NetflixLandingPage from "@/components/user/NetflixLandingPage.vue";
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'NetflixLandingPage',
+    component: NetflixLandingPage
   },
+
+
+
   {
     path: '/about',
     name: 'about',
